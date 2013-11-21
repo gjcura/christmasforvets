@@ -96,7 +96,6 @@ body {
 }
 
 
-
 /* RESPONSIVE CSS -------------------------------------------------- */
 
 @media (min-width: 768px) {
@@ -144,4 +143,17 @@ body {
   }
 }
 
+/* My Custom CSS -------------------------------------------------- */
 
+.carousel1 {
+	font-weight: 300;
+	color: white;
+}
+	
+.carousel2 {
+	font-weight: 200;
+}
+
+.carousel3 {
+	font-weight: 200;
+}
