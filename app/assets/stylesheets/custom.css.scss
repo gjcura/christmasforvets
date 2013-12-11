@@ -4,3 +4,35 @@
 slide1 {
   color: black;
 }
+
+.mytext {
+	font-weight: 200;
+	color: #656565;
+	font-size: medium;
+}
+
+.title {
+	font-weight: 200;
+}
+
+.teamtitle {
+	font-weight: 100;
+	font-size: 40pt;
+	color:#656565;
+}
+
+
+.list-inlinec {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inlinec > li {
+  display: inline-block;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.list-inlinec > li:first-child {
+  padding-left: 0;
+}

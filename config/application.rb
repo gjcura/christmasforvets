@@ -19,5 +19,20 @@ module Christmasforvets
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    
+    
+    config.action_mailer.raise_delivery_errors = true #useful to have to debug
+    config.action_mailer.perform_deliveries = true #default value
+    config.action_mailer.delivery_method = :smtp
+	config.action_mailer.smtp_settings = {
+	  address:              'smtp.gmail.com',
+	  port:                 587,
+	  domain:               'gmail.com',
+	  user_name:            'christmasforvets@gmail.com',
+	  password:             ENV['GMAIL_PASSWORD'],
+	  authentication:       'plain',
+	  enable_starttls_auto: true  
+	  }
+    
   end
 end
