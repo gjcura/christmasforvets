@@ -3,3 +3,5 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+
+Christmasforvets::Application.load_tasks
